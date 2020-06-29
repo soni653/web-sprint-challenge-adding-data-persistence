@@ -48,11 +48,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain the difference between `Relational Databases` and `SQL`.
 
+   SQL databases are primarily called as Relational Databases (RDBMS); whereas NoSQL database are primarily called as non-relational or distributed database. SQL databases defines and manipulates data based structured query language (SQL).Also all of your data must follow the same structure.
+
 2. Why do tables need a `primary key`?
 
-3. What is the name given to a table column that references the primary key on another table.
+   A primary key is a table column that serves a special purpose. Each database table needs a primary key because it ensures row-level accessibility. ... The values that compose a primary key column are unique; no two values are the same. Each table has one and only one primary key, which can consist of one or many columns.
+
+3) What is the name given to a table column that references the primary key on another table.
+
+   Foreign Key.
 
 4. What do we need in order to have a _many to many_ relationship between two tables.
+
+   You can break the many-to-many relationship into two one-to-many relationships by using a third table, called a join table. Each record in a join table includes a match field that contains the value of the primary keys of the two tables it joins.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
